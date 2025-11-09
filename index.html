@@ -869,6 +869,7 @@ fbq('track', 'PageView');
         const LOGO_SRC = "assets/human-os-logo.svg";
         const selectors = [
           'img[data-framer-name="altari logo"]',
+          'img[data-framer-name="Altari Logo"]',
           'img[src^="data:image/svg+xml"][class*="framer"]'
         ];
 
@@ -885,7 +886,10 @@ fbq('track', 'PageView');
           target.removeAttribute("srcset");
           target.alt = "Human OS logo";
           target.dataset.humanosLogoReplaced = "true";
-          target.style.transform = "scale(1.2)";
+          target.style.width = "auto";
+          target.style.height = "auto";
+          target.style.maxWidth = "220px";
+          target.style.transform = "scale(1.3)";
           target.style.transformOrigin = "center";
 
           return true;
