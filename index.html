@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human OS Agency — Digital Excellence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="animated-blur"></div>
+    <div class="floating-elements"></div>
+    <div class="geometric-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+        <div class="shape shape-4"></div>
+        <div class="shape shape-5"></div>
+        <div class="shape shape-6"></div>
+    </div>
+    
+    <div class="floating-dots">
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+        <div class="dot dot-4"></div>
+        <div class="dot dot-5"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-text">Human OS</span>
+                <span class="brand-tagline">Agency</span>
+            </div>
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">
+                <span class="badge-text">🚀 Now Hiring</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">We build digital</span>
+                <span class="title-line animated-text-container">
+                    <span class="animated-text" id="animated-text">experiences</span>
+                </span>
+            </h1>
+            <p class="hero-subtext">
+                Human OS Agency crafts premium digital products and experiences that drive growth, engage users, and transform businesses.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">$2M+</div>
+                    <div class="stat-label">Revenue Generated</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+            </div>
+            <div class="hero-buttons">
+                <button class="btn-primary">Start Your Project</button>
+                <button class="btn-secondary">View Our Work</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">End-to-end digital solutions that drive results</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="8" y="12" width="32" height="24" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M16 20H32M16 24H28M16 28H24" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with cutting-edge technology and optimized for performance.</p>
+                    <ul class="service-features">
+                        <li>React & Next.js</li>
+                        <li>Node.js Backend</li>
+                        <li>Database Design</li>
+                        <li>API Integration</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M24 12V24L32 32" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>Native and cross-platform mobile applications that deliver exceptional user experiences.</p>
+                    <ul class="service-features">
+                        <li>iOS & Android</li>
+                        <li>React Native</li>
+                        <li>Flutter</li>
+                        <li>App Store Optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M24 4L28 16H40L30 24L34 36L24 28L14 36L18 24L8 16H20L24 4Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful, intuitive designs that convert visitors into customers and drive engagement.</p>
+                    <ul class="service-features">
+                        <li>User Research</li>
+                        <li>Wireframing</li>
+                        <li>Prototyping</li>
+                        <li>Design Systems</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect x="4" y="8" width="32" height="24" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M12 16H28M12 20H24M12 24H20" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Digital Strategy</h3>
+                    <p>Data-driven strategies that align technology with business goals and drive measurable growth.</p>
+                    <ul class="service-features">
+                        <li>Analytics & Insights</li>
+                        <li>Growth Hacking</li>
+                        <li>Technical Consulting</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+        <div class="container">
+            <h2 class="section-title">Featured Work</h2>
+            <p class="section-subtitle">Projects that showcase our expertise and drive real results</p>
+            
+            <div class="work-grid">
+                <div class="work-item">
+                    <div class="work-image">
+                        <div class="work-overlay">
+                            <h3>E-commerce Platform</h3>
+                            <p>Custom Shopify Plus solution with advanced analytics</p>
+                            <button class="work-btn">View Case Study</button>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>TechFlow E-commerce</h3>
+                        <p>Increased conversion rate by 340% and reduced load time by 60%</p>
+                        <div class="work-tags">
+                            <span>React</span>
+                            <span>Shopify Plus</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work-item">
+                    <div class="work-image">
+                        <div class="work-overlay">
+                            <h3>Mobile Banking App</h3>
+                            <p>Secure, user-friendly financial management platform</p>
+                            <button class="work-btn">View Case Study</button>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>FinanceFlow Mobile</h3>
+                        <p>4.8★ app rating with 100K+ downloads in first month</p>
+                        <div class="work-tags">
+                            <span>React Native</span>
+                            <span>Node.js</span>
+                            <span>Security</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work-item">
+                    <div class="work-image">
+                        <div class="work-overlay">
+                            <h3>SaaS Dashboard</h3>
+                            <p>Complex data visualization and user management system</p>
+                            <button class="work-btn">View Case Study</button>
+                        </div>
+                    </div>
+                    <div class="work-content">
+                        <h3>DataViz Pro</h3>
+                        <p>Reduced user onboarding time by 70% with intuitive design</p>
+                        <div class="work-tags">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Why Choose Human OS Agency?</h2>
+                    <p class="about-description">
+                        We're not just another digital agency. We're a team of passionate creators, developers, and strategists who believe in the power of exceptional digital experiences to transform businesses.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <div class="feature-content">
+                                <h4>Lightning Fast</h4>
+                                <p>We deliver projects on time, every time, without compromising quality.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎯</div>
+                            <div class="feature-content">
+                                <h4>Results Driven</h4>
+                                <p>Every project is designed to achieve specific business objectives and measurable outcomes.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🚀</div>
+                            <div class="feature-content">
+                                <h4>Future Ready</h4>
+                                <p>We use cutting-edge technology and best practices to future-proof your digital presence.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Happy Clients</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-subtitle">Everything you need to know about working with us</p>
+            
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How long does a typical project take?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on complexity and scope. A simple website typically takes 2-4 weeks, while complex web applications can take 8-16 weeks. We provide detailed timelines during our initial consultation and keep you updated throughout the process.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What's included in your development process?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our process includes discovery & planning, design & prototyping, development & testing, deployment & launch, and ongoing support. We use agile methodologies with regular check-ins and deliverable reviews to ensure your project stays on track.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Do you provide ongoing support after launch?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We offer comprehensive post-launch support including bug fixes, security updates, performance monitoring, and feature enhancements. Our support packages are flexible and can be tailored to your specific needs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What technologies do you specialize in?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We specialize in modern web technologies including React, Next.js, Vue.js, Node.js, Python, and cloud platforms like AWS and Vercel. We also work with mobile technologies like React Native and Flutter, and design tools like Figma and Adobe Creative Suite.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How do you handle project communication?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We maintain transparent communication through regular check-ins, progress reports, and dedicated project management tools. You'll have direct access to your project team and can track progress in real-time through our client portal.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What makes you different from other agencies?</span>
+                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We combine technical expertise with strategic thinking, focusing on long-term business value rather than just delivering features. Our team stays current with the latest technologies, and we prioritize user experience and performance in everything we build.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Ready to Start Your Project?</h2>
+            <p class="section-subtitle">Let's discuss how we can help transform your digital presence</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p>Ready to bring your vision to life? We'd love to hear about your project and discuss how we can help you achieve your goals.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@humanosagency.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Company Name">
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Select Service</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="mobile-apps">Mobile Apps</option>
+                            <option value="ui-ux">UI/UX Design</option>
+                            <option value="strategy">Digital Strategy</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-text">Human OS</span>
+                    <span class="brand-tagline">Agency</span>
+                    <p>Crafting digital excellence, one project at a time.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <a href="#">Web Development</a>
+                        <a href="#">Mobile Apps</a>
+                        <a href="#">UI/UX Design</a>
+                        <a href="#">Digital Strategy</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <a href="#">About Us</a>
+                        <a href="#">Our Work</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#">Blog</a>
+                        <a href="#">Case Studies</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Support</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Human OS Agency. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                    <a href="#">Dribbble</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
