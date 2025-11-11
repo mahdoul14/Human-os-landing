@@ -1,4 +1,4 @@
-/* global React, ReactDOM */
+import React from 'react';
 
 const navigation = [
   { label: "Capabilities", href: "#capabilities" },
@@ -355,4 +355,4 @@ const App = () => (
   </div>
 );
 
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+export default App;
